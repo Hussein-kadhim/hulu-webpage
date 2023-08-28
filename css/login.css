@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.page-title {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
+  
+}
+
+.btn {
+  display: inline-block;
+  background: #fff;
+  color: #333;
+  min-width: 135px;
+  padding: 20px 32px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 14px;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn-dark{
+    background: #272c35;
+    color: white;
+    font-weight: normal;
+}
+
+.sub-link {
+  display: flex;
+  justify-content: center;
+  color: #2B6EF4;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.sub-text{
+  max-width: 850px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+/* Navbar */
+
+.header{
+  padding: 0.3% 12% 0 12%;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img.logo {
+  height: auto;
+  width: 60px;
+}
+
+.login-btn{
+  border: none;
+  background: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
+/* page */
+
+.page-container{
+  position: inherit;
+  height: 100%;
+  width: 100%;
+  padding: 40px 0 220px 0;
+  background: #F1F1F1;
+  }
+
+  .page-content{
+    margin: 100px auto;
+    width: 432px;
+    background: #fff;
+    color: #333;
+    position: relative;
+  }
+  
+  .login-form{
+    padding: 50px;
+    box-shadow: 0px 10px 20px -5px rgba(0,0,0,0.08)
+  }
+
+  .login-email-container{
+    margin-bottom: 24px;
+  }
+  
+.login-email-container input,
+.login-password-container input{
+    width: 100%;
+    border: 1px solid #000 ;
+    border-radius: 5px;
+    height: 50px;
+    padding: 5px;
+  }
+
+  .login-form h3{
+    font-weight: bold;
+  }
+  
+  .login-email-container label,
+  .login-password-container label {
+    display: block;
+    text-transform: uppercase;
+    color: #636e85;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 13px;
+    margin-bottom: 5px;
+}
+
+div .sub-text{
+  padding: 16px 0 32px 0;
+  color: #292C33;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.login-form .sub-text .sub-link {
+  display: inline;
+}
+
+.forgot-email-or-password {
+  justify-content: flex-start;
+}
+
+  .login-form .btn{
+  width: 100%;
+  font-weight: 300;
+  margin-top: 30px;
+  padding: 20px;
+  }
+
+  .account-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    color: #8B94A7;
+    font-size: 13px;
+    letter-spacing: 0.25px;
+}
+
+/* Footer */
+
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #f1f1f1
+}
+
+.footer-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+
+}
+
+.footer-content ul {
+  display: flex;
+  list-style: none;
+}
+
+.footer-content li{
+  padding: 5px;
+}
+
+.footer-content span, a {
+  color: #636e85;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+@media (max-width: 768px) {
+  
+  .header{
+    display: none;
+  }
+
+  .page-content {
+  width: 100%;
+  margin: 0;
+  }
+
+
+  .page-container {
+    padding: 0;
+}
+
+.login-form{
+box-shadow: none;
+padding: 30px;
+margin-top: 30px;
+}
+
+.login-form h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+div .sub-text {
+  color: #636e85;
+  padding: 16px 0 32px 0;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+}
+
+.footer{
+  display: none;
+  background-color: #fff;
+}
+}
